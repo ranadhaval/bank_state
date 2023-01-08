@@ -1,7 +1,3 @@
-
-// this is main file
-
-
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -128,7 +124,7 @@ printf("      |||||||||||||||||||||||||||||||||||||||||||    Enter Your Money Sp
 
 int principal,years,return_value;
 float rate;
-getchar();
+
 printf("Enter Your Amount :- ");
 scanf("%d",&principal);
 printf("\n");
