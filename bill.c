@@ -58,61 +58,11 @@ int i=0;
     } while (ch != EOF);
 
 
-
+fclose(ptr1);
 // make next file
 char *newstr =str;
+
 printf("\n\n\n");
-printf("                              (___________ please fill information with format of my_self_this & i_am_this________) \n");
-printf("      |||||||||||||||||||||||||||||||||||||||||||    Enter Customer Details Below:    |||||||||||||||||||||||||||||||||||||||||||\n");
-
-typedef char c;
-c name[100],city[100],address[100],code[100],phone[100],Email[100],birth[100],branch[100],cif[100];
-printf("\n\n\n");
-
-
-
-printf("Enter Cif no. :- ");
-scanf("%s",&cif);
-printf("\n");
-getchar();
-
-printf("Enter User name :- ");
-scanf("%s",&name);
-printf("\n");
-getchar();
-
-printf("Enter branch :- ");
-scanf("%s",&branch);
-printf("\n");
-getchar();
-
-printf("Enter Adress :- ");
-scanf("%s",&address);
-printf("\n");
-getchar();
-
-printf("Enter Code :- ");
-scanf("%s",&code);
-printf("\n");
-getchar();
-
-printf("Enter Phone :- ");
-scanf("%s",&phone);
-printf("\n");
-getchar();
-
-printf("Enter Email :- ");
-scanf("%s",&Email);
-printf("\n");
-
-getchar();
-
-printf("Enter birth :- ");
-scanf("%s",&birth);
-printf("\n");
-getchar();
-
-
 
 printf("      |||||||||||||||||||||||||||||||||||||||||||    Enter Your Money Specificatioin    |||||||||||||||||||||||||||||||||||||||||||\n");
 
@@ -158,15 +108,6 @@ sprintf(return_value_c, "%d", return_value);
 // for statement
 
 
-newstr = replace(newstr,cif,"{CIF}");
-newstr = replace(newstr,name,"{Name}");
-newstr = replace(newstr,branch,"{Branch}");
-newstr = replace(newstr,address,"{address}");
-newstr = replace(newstr,code,"{code}");
-newstr = replace(newstr,phone,"{phone}");
-newstr = replace(newstr,Email,"{Email}");
-newstr = replace(newstr,birth,"{birth}");
-
 newstr = replace(newstr, principal_c,"{Amount}");
 newstr = replace(newstr,rate_c,"{Rate}");
 newstr = replace(newstr,years_c,"{years}");
@@ -179,6 +120,7 @@ ptr2=fopen("gf.txt","w");
 fprintf(ptr2,"%s",newstr);
 printf("\n");
 printf(" %s",newstr);
+fclose(ptr2);
 
 
 }
