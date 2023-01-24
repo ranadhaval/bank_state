@@ -1,21 +1,20 @@
-
 -----------------------------------------------------------
                 
                 Saving Bank Account Details
 
 -----------------------------------------------------------                
-Hello,{Name} wellcome to over Bank
+Hello,Rana_Krunal wellcome to over Bank
 
-CIF NO    : {CIF}                 {Branch},INDIA
-Customer Name: {Name}
+CIF NO    : 332587415                 Dholka,INDIA
+Customer Name: Rana_Krunal
 
-Address: {address}                
-                                  Email_id: {Email}
-                                  Branch code: {code}
-phone: {phone}                    Date of issue:- Now
-Email_id: {Email}
-D.O.B: {birth}
-                                  SAKHA,{Branch},
+Address: Dholka,Braman_pith                
+                                  Email_id: rk876@gmail.com
+                                  Branch code: 24157
+phone: 9104578201                 Date of issue:- Now
+Email_id: rk876@gmail.com
+D.O.B: Dholka
+                                  SAKHA,Dholka,
 
 --------------------------------------------------------------
 
